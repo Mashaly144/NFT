@@ -4,7 +4,7 @@ import FollowersWrraper from '../components/FollowersWrraper';
 import Header from '../ui/Header';
 import Footer from '../ui/Footer';
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div className='w-full p-2'>
       <Header />
@@ -15,4 +15,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
