@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiShare } from 'react-icons/bi';
 import { AiOutlineLike } from 'react-icons/ai';
-const Card = ({ cardData }) => {
+const CardUser = ({ cardData }) => {
   return (
     <div className='card flex-1'>
       <div>
@@ -28,4 +28,4 @@ const Card = ({ cardData }) => {
   );
 };
 
-export default Card;
+export default CardUser;
