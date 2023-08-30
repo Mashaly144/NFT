@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './ui/Header';
-import Footer from './ui/Footer';
-import HomePage from './pages/HomePage.jsx';
+import Home from './Pages/Home.jsx';
 import WelcomePage from './Pages/WelcomePage';
 import CardDetailsPage from './Pages/CardDetailsPage';
 
@@ -14,7 +12,7 @@ function App() {
       {/* <Header /> */}
       <Routes>
         <Route path='/' element={<WelcomePage />} />
-        <Route path='/home' element={<HomePage />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/details' element={<CardDetailsPage />} />
       </Routes>
       {/* <Footer /> */}
