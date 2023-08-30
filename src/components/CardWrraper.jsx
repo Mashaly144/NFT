@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import Card from './card';
+import CardUser from './CardUser';
 import { cardData } from '../constant/data';
 import { motion } from 'framer-motion';
 
@@ -31,7 +31,7 @@ const CardWrraper = () => {
           ref={ItemsRef}
         >
           {cardData.map((card, index) => (
-            <Card key={index} cardData={card} />
+            <CardUser key={index} cardData={card} />
           ))}
         </motion.div>
       </motion.div>
